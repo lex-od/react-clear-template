@@ -1,7 +1,10 @@
-import "./App.css";
+import { Component } from 'react';
+import './styles/App.module.scss';
 
-function App() {
-    return <div></div>;
+class App extends Component {
+    render() {
+        return <div></div>;
+    }
 }
 
 export default App;
